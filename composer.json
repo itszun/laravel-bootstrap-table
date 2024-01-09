@@ -1,0 +1,21 @@
+{
+    "name": "itszun/laravel-bootstrap-table",
+    "description": "Package for rendering bootstrap table using laravel",
+    "type": "library",
+    "require": {
+        "laravel/laravel": "8.^"
+    },
+    "license": "MIT License",
+    "autoload": {
+        "psr-4": {
+            "Itszun\\LaravelBootstrapTable\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Itszun",
+            "email": "malikal.j4@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
