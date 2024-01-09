@@ -17,6 +17,16 @@
             "email": "malikal.j4@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    "extra": {
+        "laravel": {
+            "aliases": {
+                "BootstrapTable": "Itszun\\LaravelBootstrapTable\\Table"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }
