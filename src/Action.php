@@ -29,9 +29,10 @@ class Action {
     }
 
     public function render($model) {
-        $this->url = is_callable($this->url) ? ($this->url)($model) : $this->url;
+        $data = $this->get_array();
+        $data['url'] = is_callable($this->url) ? ($this->url)($model) : $this->url;
 
-        return view('components.table-action-button', $this->get_array())->render();
+        return view('components.table-action-button', $data)->render();
     }
 
     public function get_array()
