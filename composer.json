@@ -17,5 +17,6 @@
             "email": "malikal.j4@gmail.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
