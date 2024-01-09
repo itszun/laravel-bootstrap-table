@@ -9,7 +9,10 @@
     "autoload": {
         "psr-4": {
             "Itszun\\LaravelBootstrapTable\\": "src/"
-        }
+        },
+        "files" : [
+            "src/helpers.php"
+        ]
     },
     "authors": [
         {
@@ -19,13 +22,13 @@
     ],
     "extra": {
         "laravel": {
+            "providers": [
+                "Itszun\\LaravelBootstrapTable\\Providers\\BootstrapTableServiceProvider"
+            ],
             "aliases": {
                 "BootstrapTable": "Itszun\\LaravelBootstrapTable\\Table"
             }
         }
-    },
-    "config": {
-        "sort-packages": true
     },
     "prefer-stable": true,
     "minimum-stability": "dev"
