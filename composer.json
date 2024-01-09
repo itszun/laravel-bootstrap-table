@@ -3,7 +3,8 @@
     "description": "Package for rendering bootstrap table using laravel",
     "type": "library",
     "require": {
-        "laravel/laravel": ">=8.2"
+        "laravel/framework": "^10.10",
+        "laravel/tinker": "^2.8"
     },
     "license": "MIT",
     "autoload": {
