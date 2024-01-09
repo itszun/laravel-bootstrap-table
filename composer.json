@@ -5,7 +5,7 @@
     "require": {
         "laravel/laravel": "8.*"
     },
-    "license": "MIT License",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Itszun\\LaravelBootstrapTable\\": "src/"
